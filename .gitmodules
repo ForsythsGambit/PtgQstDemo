@@ -1,0 +1,3 @@
+[submodule "PtgQst"]
+	path = PtgQst
+	url = https://github.com/Pythagorous-Studios/PtgQst.git
