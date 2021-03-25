@@ -10,9 +10,6 @@ Thershan: Local region
 
 thershan=board("Thershan")
 
-#pieces
-thaeron=piece("Thaeron Forsyth",0,0)
-
 #tiles
 tavern=tile("Tavern",0,1,"")
 plaza=tile("Plaza",0,0,"A busy plaza in the center of town.")
@@ -25,7 +22,8 @@ thershan.addtile(plaza)
 thershan.addtile(blacksmith)
 thershan.addtile(stable)
 
-thershan.addpiece(thaeron)
+def piecetoboard(pce):
+	thershan.addpiece(pce)
 
 
 if __name__ == "__main__":
