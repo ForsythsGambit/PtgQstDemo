@@ -1,9 +1,9 @@
 from PtgQst.eng import *
-import logger
+from PtgQst.eng import logger
 from data import *
 
 thaeron=piece("Thaeron Forsyth",0,0)
-data.piectoboard(thaeron)
+piecetoboard(thaeron)
 displog=True
 
 logger.register("main")
