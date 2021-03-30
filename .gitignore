@@ -3,3 +3,5 @@ PtgQst
 .pyc
 test.py
 /test
+SpcToTab.py
+out.txt
