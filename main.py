@@ -41,7 +41,9 @@ def InputProcessor(inp,plr=thaeron):
 			return
 		else:
 			return "You can't go that way"
-
+	elif inp == "help":
+		print("Currently only one word commands are supported.")
+		print("Commands include: look,north,south,east,and west."
 piecetoboard(thaeron)
 
 if __name__=="__main__":
