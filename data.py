@@ -1,5 +1,5 @@
-from PtgQst.eng import *
-from PtgQst.logger import logger
+from eng import *
+import logger
 
 """ 
 docs and details:

@@ -1,5 +1,5 @@
-from PtgQst.eng import *
-from PtgQst.eng import logger
+from logger import *
+from eng import *
 from data import *
 
 thaeron=piece("Thaeron Forsyth",0,0)
@@ -43,10 +43,12 @@ def InputProcessor(inp,plr=thaeron):
 			return "You can't go that way"
 	elif inp == "help":
 		print("Currently only one word commands are supported.")
-		print("Commands include: look,north,south,east,and west."
+		print("Commands include: look,north,south,east,and west.")
 piecetoboard(thaeron)
 
 if __name__=="__main__":
+	print("Currently only one word commands are supported.")
+	print("Commands include: look,north,south,east,and west.")
 	while game==True:
 		command=input(": ")
 		output=InputProcessor(command)
